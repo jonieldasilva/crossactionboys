@@ -14,10 +14,18 @@ header {
   justify-content: center;
   flex-direction: column;
   box-sizing: border-box;
-  background: url("https://picsum.photos/id/452/1200?grayscale") no-repeat
-    center;
+  background: url("https://picsum.photos/1200?grayscale") no-repeat center;
   background-size: cover;
   background-color: #000;
+}
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  color: rgba(255, 255, 255, 0.7);
 }
 header > * {
   /* background-color: red; */
@@ -77,6 +85,9 @@ nav button {
   font-size: 12px;
   margin: 4px 2px;
   cursor: pointer;
+}
+button:hover {
+  opacity: 0.9;
 }
 main {
   margin: auto;
