@@ -92,6 +92,7 @@ button:hover {
 main {
   margin: auto;
   width: 800px;
+  padding: 80px 0 80px 0;
   display: flex;
   /* align-items: center; */
   /* justify-content: center; */
