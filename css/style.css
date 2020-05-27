@@ -70,7 +70,7 @@ footer li {
   font-weight: bold;
   text-transform: uppercase;
 }
-nav button {
+button {
   background-color: #4caf50; /* Green */
   border: none;
   color: black;
@@ -85,6 +85,10 @@ nav button {
   font-size: 12px;
   margin: 4px 2px;
   cursor: pointer;
+}
+main button {
+  color: white;
+  background-color: black;
 }
 button:hover {
   opacity: 0.9;
