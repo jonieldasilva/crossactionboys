@@ -14,7 +14,7 @@ header {
   justify-content: center;
   flex-direction: column;
   box-sizing: border-box;
-  background: url("https://picsum.photos/1200?grayscale") no-repeat center;
+  background: url("https://picsum.photos/1200") no-repeat center;
   background-size: cover;
   background-color: #000;
 }
@@ -34,12 +34,24 @@ header > * {
   text-align: center;
   color: white;
   text-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  padding: 0 0 5px 0;
 }
+
 header h1 {
   font-size: 100px;
   text-transform: uppercase;
   line-height: 0.8em;
   letter-spacing: -3px;
+  padding: 0 0 5px 0;
+}
+header h4 {
+  padding: 0 0 10px 0;
+}
+header .cta {
+  padding: 10;
+  background-color: #fff;
+  color: black;
+  padding: 15px 28px;
 }
 nav,
 footer {
@@ -94,6 +106,7 @@ button:hover {
   opacity: 0.9;
 }
 main {
+  /* background-color: black; */
   margin: auto;
   width: 800px;
   padding: 80px 0 80px 0;
@@ -101,18 +114,12 @@ main {
   /* align-items: center; */
   /* justify-content: center; */
   flex-direction: column;
+  color: black;
 }
 team {
+  /* position: relative; */
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
   flex-direction: row;
 }
-team .img {
-  background: url("https://picsum.photos/400?grayscale");
-  width: 100px;
-  /* height: 400px; */
-}
-/* .right {
-  margin: 0;
-} */
