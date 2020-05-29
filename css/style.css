@@ -13,7 +13,7 @@ header {
   width: 100%;
   margin: 0;
   top: 0;
-  height: 90vh;
+  height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,22 +94,7 @@ footer li {
   font-weight: bold;
   text-transform: uppercase;
 }
-button {
-  border: none;
-  color: black;
-  background-color: white;
-  font-weight: 700;
-  padding: 15px 28px;
-  border-radius: 3px;
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration: none;
-  /* display: inline-block; */
-  font-size: 12px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-main button {
+` main button {
   color: white;
   background-color: black;
 }
