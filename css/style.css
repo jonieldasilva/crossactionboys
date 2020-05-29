@@ -2,12 +2,17 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 body {
   margin: 0 auto;
   font-family: "Montserrat";
   color: black;
   background-color: lightgray;
+  --color1: #2a272a;
+  --color2: #4b4a54;
+  --color3: #677381;
+  --color4: #021c36;
 }
 header {
   width: 100%;
@@ -54,11 +59,13 @@ header h4 {
   font-weight: 300;
   font-size: 22px;
 }
-header .cta {
+button {
   padding: 10;
   background-color: #fff;
   color: black;
   padding: 15px 28px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 nav {
   position: sticky;
@@ -74,8 +81,7 @@ footer {
   justify-content: space-between;
   padding: 0 50px 0 50px;
 }
-footer {
-}
+
 nav > *,
 footer > * {
   text-transform: uppercase;
@@ -94,62 +100,43 @@ footer li {
   font-weight: bold;
   text-transform: uppercase;
 }
-` main button {
-  color: white;
-  background-color: black;
+button {
+  border: none;
 }
 button:hover {
   opacity: 0.9;
 }
 main {
-  /* background-color: black; */
-  margin: auto;
-  width: 800px;
-  padding: 80px 0 80px 0;
+  margin: 0;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
   flex-direction: column;
-  color: black;
 }
-.team {
-  width: 100%;
+main div {
+  height: 500px;
+  background-color: var(--color1);
+  text-align: center;
+  font-size: 10px;
   display: flex;
   align-items: center;
-  flex-direction: row;
+  justify-content: center;
+  color: white;
 }
-main button:hover {
-  opacity: 0.7;
+.theboys {
+  background-color: var(--color4);
 }
-.team .img {
-  background-color: yellow;
-  background: url("https://picsum.photos/400") no-repeat center;
-  height: 300px;
-  width: 400px;
+.themodel {
+  background-color: var(--color2);
 }
-.team .right {
-  width: 50%;
-  padding: 0 0 0 20px;
+.storytelling {
+  background-color: var(--color3);
 }
-.sep {
-  height: 1px;
-  width: 50%;
-  margin: 50px auto;
-  background-color: black;
+.articles {
+  background-color: var(--color1);
 }
 
-.model {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* flex-direction: column; */
+.testimonials {
+  background-color: var(--color4);
 }
-.model > * {
-  margin: auto;
-}
-h2 {
-  text-transform: uppercase;
-}
-p {
-  font-weight: 200;
-  line-height: 1.5em;
+.newsletter {
+  background-color: var(--color1);
 }
